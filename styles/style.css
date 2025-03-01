@@ -75,7 +75,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 23px;
-  min-height: 534px; 
+  min-height: 534px;
 }
 
 .content__list {
@@ -119,7 +119,7 @@ ol {
   line-height: 100%;
   text-transform: uppercase; 
   text-overflow: ellipsis;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 .content__video-card-description {
@@ -249,18 +249,14 @@ ol {
 .button {
   min-height: 34px;
   border: 1px solid #FFF;
-  color: #fff;
-  line-height: normal;
-  text-align: center;
-  background-color: transparent;
-  cursor: pointer; 
-  color: #fff;
+  color: #fff; 
   font-family: "Fira Sans Condensed";
   font-weight: 700;
   font-size: 18px;
   line-height: normal;
   text-align: center;
   background-color: transparent;
+  cursor: pointer;
 }  
   
   .button:focus-visible {
