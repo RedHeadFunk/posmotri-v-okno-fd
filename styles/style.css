@@ -10,13 +10,13 @@ html {
 
 .page {
   display: flex;
-  inline-size: 1200px;
-  block-size: 100%;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  inline-size: 1200px;
+  block-size: 100%;
 }
 
 h1,
@@ -52,27 +52,27 @@ ol {
 }
 
 .content {
-  margin: 133px 30px;
   display: grid;
   grid-template-columns: 711px 1fr;
   gap: 30px;
+  margin: 133px 30px;
 }
 
 .content__list-container {
-  height: 534px;
+  position: relative;
   width: 399px;
-  position: relative; 
+  height: 534px; 
 }
 
 .content__card-link {
   display: block;
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
 }
 
 .content__list-container {
-  height: 534px;
   width: 399px;
+  height: 534px;
   overflow-y: scroll;
 }
 
@@ -84,9 +84,9 @@ ol {
 }
 
 .content__list {
-  margin-top: 2px;
   display: grid;
   gap: 25px;
+  margin-top: 2px;
 }
 
 .content__list-item {
@@ -115,26 +115,26 @@ ol {
 
 .content__video-card-title {
   align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
   font-family: "Oswald";
+  font-weight: 700;
   font-size: 30px;
   font-style: normal;
-  font-weight: 700;
   line-height: 100%;
-  text-transform: uppercase;
-  white-space: nowrap;
-  overflow: hidden; 
+  text-transform: uppercase; 
   text-overflow: ellipsis;
-  max-width: 100%; 
+  white-space: nowrap; 
 }
 
 .content__video-card-description {
   display: block;
+  padding-top: 6px;
   overflow: hidden;
-  -webkit-box-orient: vertical;
   font-weight: 400;
   font-size: 18px;
   line-height: 90%;
-  padding-top: 6px;
+  -webkit-box-orient: vertical;
 }
 
 .content__video-card:hover .content__video-card-title,
@@ -142,28 +142,29 @@ ol {
   padding-bottom: 1px;
   text-decoration-line: underline;
   text-decoration-style: solid;
-  text-decoration-skip-ink: none;
   text-decoration-thickness: auto;
+  text-decoration-skip-ink: none;
   text-underline-offset: auto;
   text-underline-position: from-font;
 }
 
 .search-form {
-  margin-top: 13px;
   display: grid;
   grid-template-columns: 1fr 212px 1fr;
-  gap: 40px;}.search-form__fieldset-title {
+  gap: 40px;
+  margin-top: 13px;}.search-form__fieldset-title {
   margin-bottom: 5px;
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
 }
 
 .result__video-container {
-  padding-top: 78px;
+  position: relative;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 3; 
+  padding-top: 78px;
 }
 
 .result__video {
@@ -174,9 +175,9 @@ ol {
 
 .title {
   font-family: 'Oswald';
+  font-weight: 700;
   font-size: 75px;
   font-style: normal;
-  font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
   }.content__accent {
@@ -185,10 +186,10 @@ ol {
 
 .visually-hidden {
   position: absolute;
-  inline-size: 1px;
-  block-size: 1px;
   overflow: hidden;
   clip: rect(0 0 0 0);
+  inline-size: 1px;
+  block-size: 1px;
   clip-path: inset(50%);
   white-space: nowrap;
 }
@@ -211,16 +212,16 @@ ol {
 }
 
 .search-form__textfield {
-  width: 225px;
   display: flex;
+  width: 225px;
+  border-top: 2px solid #fff; 
+  border-right: none; 
+  border-bottom: 2px solid #fff; 
+  border-left: none;
+  color: rgba(255, 255, 255, 0.7);
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.7);
-  border-top: 2px solid #fff; 
-  border-bottom: 2px solid #fff; 
-  border-left: none; 
-  border-right: none;
   background-color: transparent;
   appearance: none;
 }
@@ -241,9 +242,9 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #FFF;
   width: 19px;
   height: 19px;
+  border: 1px solid #FFF;
   cursor: pointer;
 }  
 
@@ -252,15 +253,15 @@ ol {
 }  
   
 .button {
-  text-align: center;
-  font-family: "Fira Sans Condensed";
-  font-size: 18px;
-  font-weight: 700;
-  line-height: normal;
   min-height: 34px;
-  color: #fff;
-  background-color: transparent;
   border: 1px solid #FFF;
+  color: #fff;
+  font-family: "Fira Sans Condensed";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: normal;
+  text-align: center;
+  background-color: transparent;
   cursor: pointer;
   }  
   
@@ -273,32 +274,32 @@ ol {
   }  
   
   .button:active {
-    background-color: rgba(255, 255, 255, 0.2);
     text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
   }  
   
   .search-form__submit-button {
-    margin-top: 20px;
-    text-align: center;
-    font-family: "Fira Sans Condensed";
-    font-size: 18px;
-    font-weight: 700;
-    line-height: normal;
     min-height: 34px;
-    color: #fff;
-    background-color: transparent;
+    margin-top: 20px;
     border: 1px solid #FFF;
+    color: #fff;
+    font-family: "Fira Sans Condensed";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: normal;
+    text-align: center;
+    background-color: transparent;
   }  
   
   .more-button {
+    width: 390px;
     margin-top: 15px;
     margin-bottom: 3px;
-    width: 390px;
   }  
   
   .search-form__checkbox:checked  + .search-form__pseudo-checkbox::after {
-    display: block;
-    content: ''; 
+    content: '';
+    display: block; 
     width: 15px;
     height: 15px;
     background-color: #fff;
@@ -312,7 +313,4 @@ ol {
     outline: 1px solid #fff; 
   }  
   
-  .result__video-container {
-    position: relative; 
-  }
 
