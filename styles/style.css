@@ -58,7 +58,7 @@ ol {
 	grid-template-areas: "video details";
 	place-items: end;
 	gap: 30px;
-	margin: 133px 30px ;
+	margin: 133px 30px;
 	inline-size: 1140px;
 }
 
@@ -96,7 +96,7 @@ ol {
 }
 
 .content__card-link_current {
-  background-color: #545050;
+	background-color: #545050;
 }
 
 .content__card-link:focus-visible {
