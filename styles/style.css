@@ -59,7 +59,7 @@ ol {
 	grid-template-areas: "video details";
 	place-items: end;
 	gap: 30px;
-	padding: 130px 30px;
+	margin: 130px 30px;
 	inline-size: 1140px;
 }
 
@@ -121,6 +121,7 @@ ol {
 }
 
 .content__video-card-title {
+	padding-bottom: 2px;
 	align-self: stretch;
 	max-width: 100%;
 	overflow: hidden;
@@ -144,7 +145,6 @@ ol {
 
 .content__card-link:hover .content__video-card-title,
 .content__card-link:hover .content__video-card-description {
-	padding-bottom: 2px;
 	text-decoration-line: underline;
 	text-decoration-style: solid;
 	text-decoration-thickness: auto;
@@ -181,7 +181,6 @@ ol {
 }
 
 .title {
-	padding-bottom: 3px;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	font-size: 75px;
@@ -260,6 +259,7 @@ ol {
 
 .search-form__label-text {
 	margin-left: 5px;
+	border-bottom: 1px solid transparent;
 }
 
 .button {
