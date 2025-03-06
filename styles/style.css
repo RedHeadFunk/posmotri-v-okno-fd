@@ -10,6 +10,7 @@ html {
 
 .page {
 	display: flex;
+	align-items: center;
 	margin: auto;
 	color: #fff;
 	font-family: 'Fira Sans Condensed', sans-serif;
@@ -58,7 +59,7 @@ ol {
 	grid-template-areas: "video details";
 	place-items: end;
 	gap: 30px;
-	margin: 133px 30px;
+	padding: 130px 30px;
 	inline-size: 1140px;
 }
 
