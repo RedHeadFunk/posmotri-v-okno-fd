@@ -81,7 +81,6 @@ ol {
 	justify-content: space-between;
 	gap: 22px;
 	inline-size: 100%;
-	block-size: 100%;
 	max-inline-size: 399px;
 }
 
